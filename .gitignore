@@ -1,0 +1,26 @@
+Ignore common operating system and editor files
+
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+Ignore compiled artifacts and dependencies
+
+/node_modules
+/dist
+/build
+/target
+
+Ignore Python specific files
+
+pycache/
+*.pyc
+venv/
+.env
+
+Ignore large or sensitive data files
+
+*.log
+*.sqlite
+/data/
